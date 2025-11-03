@@ -1,0 +1,18 @@
+# Virtual Environment
+# This tells git to ignore your entire .venv folder
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Raw data files
+# We don't want to upload our 45,000-article dataset
+*.csv
+*.zip
+
+# Other local scripts
+# The live app only needs app.py to run
+preprocess.py
+train_baseline.py
+evaluate.py
