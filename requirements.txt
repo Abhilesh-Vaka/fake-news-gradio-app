@@ -1,0 +1,5 @@
+pandas
+scikit-learn
+ibm-watsonx-ai
+joblib
+streamlit
